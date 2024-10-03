@@ -1,0 +1,14 @@
+body {
+    background-color:aquamarine;
+}
+
+h1 {
+    color:blue;
+    margin.left: 50px;
+    opacity: 80%;
+}
+
+p {
+    background-color:brown;
+    color:beige;
+}
