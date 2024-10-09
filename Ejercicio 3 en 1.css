@@ -36,6 +36,7 @@ span.normal{
     font-weight: bold;
 }
 
-#primero {
-   font-family: serif ;
+/*Seleccionar un elemento excepción (Ej3), en este caso utilizando un id*/
+#importante {
+   font-family: 'Times New Roman' ;
 }

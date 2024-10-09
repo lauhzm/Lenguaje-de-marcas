@@ -45,3 +45,8 @@ a:visited{
 span.estrecho{
     font-weight: bold;
 }
+
+/*Seleccionar un elemento excepción (Ej3), en este caso utilizando div*/
+div#tres {
+    font-family: Helvetica;
+ }
