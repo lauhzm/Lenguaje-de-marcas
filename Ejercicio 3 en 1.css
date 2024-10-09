@@ -9,7 +9,7 @@ p {
 }
 
 /* Todos los párrafos contenidos en #primero */
-p.primero{
+p#primero{
     color: #336699;
 }
 
@@ -32,6 +32,10 @@ em.especial{
 }
 
 /* Elementos "span" contenidos en .normal */
-span{
+span.normal{
     font-weight: bold;
+}
+
+#primero {
+   font-family: serif ;
 }
