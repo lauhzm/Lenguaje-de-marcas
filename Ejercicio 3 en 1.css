@@ -9,7 +9,7 @@ p {
 }
 
 /* Todos los párrafos contenidos en #primero */
-p#primero{
+#primero p {
     color: #336699;
 }
 
@@ -19,7 +19,7 @@ a {
 }
 
 /* Los elementos "em" contenidos en #primero */
-em#primero{
+#primero em{
     background: #FFFFCC;
     padding: .1em;
 }
@@ -32,11 +32,11 @@ em.especial{
 }
 
 /* Elementos "span" contenidos en .normal */
-span.normal{
+.normal span{
     font-weight: bold;
 }
 
 /*Seleccionar un elemento excepción (Ej3), en este caso utilizando un id*/
 #importante {
-   font-family: 'Times New Roman' ;
+    font-family: 'Times New Roman' ;
 }

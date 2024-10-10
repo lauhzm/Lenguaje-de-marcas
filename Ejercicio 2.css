@@ -16,7 +16,7 @@ h1, h2{
 }
 
 /* Todos los párrafos contenidos en el bloque de id uno */
-#uno{
+#uno p{
     color: rgb(187, 197, 207);
 }
 

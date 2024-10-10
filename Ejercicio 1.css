@@ -9,7 +9,7 @@ p {
 }
 
 /* Todos los párrafos contenidos en #primero */
-p.primero{
+.primero p{
     color: #336699;
 }
 
@@ -19,7 +19,7 @@ a {
 }
 
 /* Los elementos "em" contenidos en #primero */
-em#primero{
+#primero em{
     background: #FFFFCC;
     padding: .1em;
 }

@@ -16,7 +16,7 @@ h1, h2{
 }
 
 /* Todos los párrafos contenidos en el bloque de id uno */
-p#uno{
+#uno p{
     color: rgb(187, 197, 207);
 }
 
@@ -42,11 +42,11 @@ a:visited{
 }
 
 /* Todos los elementos <span> contenidos en la clase "estrecho" */
-span.estrecho{
+.estrecho span{
     font-weight: bold;
 }
 
-/*Seleccionar un elemento excepción (Ej3), en este caso utilizando div*/
-div#tres {
-    font-family: Helvetica;
- }
+/*Seleccionar un elemento excepción (Ej3), en este caso utilizando una clase*/
+.ordenador{
+    font-family: monospace;
+}
