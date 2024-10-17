@@ -1,0 +1,62 @@
+h1 {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -300px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+caption {
+    font-weight: bold;
+}
+
+th {
+    color: white;
+    background-color: #666;
+}
+
+img {
+    width:178px;
+    height:147px;
+}
+
+.gradfac {
+    background: linear-gradient(180deg, orange 0%, blue 100%);
+}
+
+.gradins {
+    background: linear-gradient(180deg, orange 0%, purple 100%);
+}
+
+.gradlin {
+    background: linear-gradient(180deg, blue 0%, cyan 100%);
+}
+
+.gradsna {
+    background: linear-gradient(180deg, purple 0%, yellow 100%);
+}
+
+.gradtwi {
+    background: linear-gradient(180deg, cyan 0%, lime 100%);
+}
+
+.gradwha {
+    background: linear-gradient(180deg, yellow 0%, lime 100%);
+}
