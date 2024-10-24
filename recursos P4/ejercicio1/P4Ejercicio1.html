@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ejercicio 1</title>
+        <link rel="stylesheet" href="P4Ejercicio1.css">
+    </head>
+<body>
+<div><img id="cabeza" src="IAT-LOGOTIPO.jpg" alt="Logo Alan Turing"></div>
+    
+
+<form action="/procesarincidencia.php" method="post">
+    <fieldset>
+        <legend>Nueva incidencia</legend>
+        <label for="fname">Profesor*:</label>
+        <input type="text" id="fname" name="fname" placeholder="Escribe tu nombre aquí" required><br><br>
+        <label for="correo">Correo electrónico*:</label>
+        <input type="email" id="correo" name="correo" placeholder="Escribe tu correo aquí" required><br><br>
+        <label for="depto">Departamento*:</label>
+        <select id="depto" name="depto" required>
+            <option value="informatica">Informática</option>
+            <option value="matematicas">Matemáticas</option>
+            <option value="filosofia">Filosofía</option>
+        </select><br><br>
+        <label for="aula">Aula*:</label>
+        <input type="number" id="aula" name="aula" placeholder="Indica el aula de la incidencia" required><br><br>
+        <label for="dia">Día de la incidencia*:</label>
+        <input type="date" id="dia" name="dia" max="2030-12-31" min="2024-10-24" required><br><br>
+        <label for="hora">Hora de la incidencia*:</label>
+        <input type="time" id="hora" name="hora" required><br><br>
+        <label for="descripcion">Descripción de la incidencia*:</label>
+        <textarea name="descripcion" rows="5" cols="30" required></textarea><br><br>
+        <label for="imagen">Imagen de la incidencia (opcional):</label><br>
+        <input type="file" id="imagen" name="imagen"><br><br>
+
+        <div><input id="boton" type="submit" value="Enviar incidencia">
+            <input id="boton" type="reset" value="Borrar formulario"></div>
+    </fieldset>
+    
+</form> 
+<br>
+</body>
+
+<footer>
+
+    
+    <h3>Síguenos</h3>
+<table>
+    <tr>
+
+        <td><a href="https://www.facebook.com/cpifpalanturing" target="_blank"><img src="icons8-facebook-48.png", alt="Logo facebook";></a></td>
+        <td><a href="https://x.com/i/flow/login?redirect_after_login=%2Fcpifpalanturing" target="_blank"><img src="icons8-twitter-48.png", alt="Logo twitter";></a></td>
+        <td><a href="https://www.instagram.com/cpifpalanturing/" target="_blank"><img src="icons8-instagram-48.png", alt="Logo instagram";></a></td>
+        <td><a href="https://www.youtube.com/@cpifpalanturing" target="_blank"><img src="icons8-youtube-48.png", alt="Logo youtube";></a></td>
+        <td><a href="https://fpalanturing.es/" target="_blank"><img src="icons8-website-48.png", alt="Logo website";></a></td>
+    </tr>
+</table>
+</footer>
+</html>
