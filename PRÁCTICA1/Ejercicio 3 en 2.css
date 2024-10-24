@@ -1,0 +1,52 @@
+ /* Todos los elementos de la página */
+*{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Todos los encabezados h1 y h2 */
+h1, h2{
+    text-align: center;
+}
+
+/* Todo el bloque #uno */
+#uno{
+    background-color: #555;
+    padding: 2em;
+}
+
+/* Todos los párrafos contenidos en el bloque de id uno */
+#uno p{
+    color: rgb(187, 197, 207);
+}
+
+/* Todos los enlaces la página no visitados */
+a:link{
+    color: rgb(0, 204, 10);
+}
+
+/* Todos los enlaces la página visitados */
+a:visited{
+    color: rgb(207, 89, 172);
+}
+
+/* El bloque con id dos */
+#dos{
+    color: #0000BB;
+    background-color: #FFFFCC;
+}
+
+/* Todos los elementos con la clase "estrecho" */
+.estrecho{
+    width: 50%;
+}
+
+/* Todos los elementos <span> contenidos en la clase "estrecho" */
+.estrecho span{
+    font-weight: bold;
+}
+
+/*Seleccionar un elemento excepción (Ej3), en este caso utilizando una clase*/
+.ordenador{
+    font-family: monospace;
+}
