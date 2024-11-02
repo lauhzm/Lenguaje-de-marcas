@@ -1,21 +1,21 @@
 function calcular() {
-    let op1 = document.getElementById("op1").value ;
-    let op2 = document.getElementById("op2").value ;
+    let op1 = parseFloat(document.getElementById("op1").value) ;
+    let op2 = parseFloat(document.getElementById("op2").value) ;
     let operacion = document.getElementById("operacion").value ;
     let resultado ;
 
     switch (operacion) {
         case "suma":
-            resultado = a+b ;
+            resultado = op1+op2 ;
             break;
         case "resta":
-            resultado = a-b ;
+            resultado = op1-op2 ;
             break;
         case "multiplicacion":
-            resultado = a*b ;
+            resultado = op1*op2 ;
             break;
         case "division":
-            resultado = a/b ;
+            resultado = op1/op2 ;
             break;
     }
 
