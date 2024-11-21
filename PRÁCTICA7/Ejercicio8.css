@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    background-color: #eeeeee;
+}
+
+h1 {
+    color: #333333;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: #888888;
+    color: red;
+    font-size: 150%;
+    text-transform: capitalize;
+}
+
+h3 {
+    background-color: #aaaaaa;
+    color: darkmagenta;
+    font-size: 130%;
+}
+
+p {
+    background-color: #cccccc;
+    line-height: 150%;
+}
+
+address {
+    background-color: white;
+    font-style: normal;
+    text-align: right;
+}
+
+em {
+    color: blue;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+strong {
+    color: green;
+    font-style: normal;
+    font-weight: normal;
+}
