@@ -43,7 +43,6 @@ img {
 }
 
 header {
-    position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -51,7 +50,6 @@ header {
 }
 
 footer {
-    position: relative;
     bottom: 0px;
     left: 0px;
     width: 100%;
@@ -95,3 +93,22 @@ footer {
     margin: 5px;
     overflow: hidden; /*por defecto es visible*/
 }
+
+#caja1 {
+    background-color: lightyellow;
+    order: 5 ;
+    flex-grow: 3; /*peso respecto a los demás items, lo contrario será flex-shrink, cuyo valor por defecto es 1*/
+    /*si el flex-shrink es 0, la caja no se encogerá nada. los valores negativos no son válidos*/
+}
+
+#caja2 {
+    background-color: lightblue;
+    order: -2 ;
+}
+
+#caja3 {
+    background-color: lightseagreen;
+    order: 10 ;
+}
+
+/*para alinear una sola caja utilizo align-self*/
