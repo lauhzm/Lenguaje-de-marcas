@@ -1,0 +1,92 @@
+main {
+    background-color: #fbebaf;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1c8080;
+}
+
+main h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+table, th, td {
+    border: 3px solid #fbebaf;
+    border-collapse: collapse;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+}
+
+th {
+    background-color: #1c8080;
+}
+
+td {
+    background-color: #74bf9d;
+}
+
+caption {
+    color: #1c8080;
+    padding-top: 5%;
+}
+
+#tablas {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: 25%;
+}
+
+#bebidas {
+    width: 40%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.precio {
+    text-align: center;
+}
+
+h2:has(+img) {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#platos_estrella img {
+    height: 300px;
+    border-radius: 22px;
+}
+
+#platos_estrella {
+    text-align: center;
+    padding: 2%;
+}
+
+.adorno_fixed {
+    position: fixed;
+    width: 200px;
+}
+
+img[alt="adorno 1"] {
+    bottom: 200px;
+    left: 150px;
+}
+
+img[alt="adorno 2"] {
+    bottom: 500px;
+    left: 150px;
+}
+
+img[alt="adorno 3"] {
+    bottom: 500px;
+    right: 150px;
+}
+
+img[alt="adorno 4"] {
+    bottom: 200px;
+    right: 150px;
+}

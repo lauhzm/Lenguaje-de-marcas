@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon" />
+    <title>Restaurante El chile verde</title>
+    <link rel="stylesheet" href="estilos/general.css" type="text/CSS">
+    <link rel="stylesheet" href="estilos/reserva.css" type="text/CSS">
+</head>
+
+<body>
+
+    <header>
+
+        <div id="titulo">
+            <h1>EL CHILE VERDE</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="carta.html">Carta</a></li>
+                <li><a href="equipo.html">Equipo</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="reserva.html">Reserva</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        
+        <div id="contenedor">
+
+            <section>
+                <h2>HAZ TU RESERVA</h2>
+
+                <form action="/reserva.php" method="post" autocomplete="off" target="_blank">
+                    <fieldset>
+                        <legend>Información de contacto</legend>
+                        <label for="nombre">Nombre*:</label>
+                        <input type="text" name="nombre" placeholder="Escribe tu nombre aquí" required><br><br>
+                        <label for="apellidos">Apellidos*:</label>
+                        <input type="text" name="apellidos" placeholder="Escribe tus apellidos aquí" required><br><br>
+                        <label for="correo">Correo electrónico*:</label>
+                        <input type="email" name="correo" placeholder="Escribe tu correo aquí" required><br><br>
+                        <p>Indique si alguno de los comensales tiene alguna alergia o intolerancia:</p>
+                        <input type="checkbox" name="alergia1">
+                        <label for="alergia1"> Frutos secos</label><br>
+                        <input type="checkbox" name="alergia2">
+                        <label for="alergia2"> Lactosa</label><br>
+                        <input type="checkbox" name="alergia3">
+                        <label for="alergia3"> Gluten</label><br>
+                        <input type="checkbox" name="alergia4">
+                        <label for="alergia4"> Fructosa</label><br><br>
+                        <textarea name="otros" placeholder="Si tiene otra alergia o intolerancia no especificada indíquelo aquí." rows="3" cols="30"></textarea><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Detalles de la reserva</legend>
+                        <label for="numcomensales">Número de comensales*:</label>
+                        <input type="number" name="numcomensales" min=1 required><br><br>
+                        <label for="dia">Día de la reserva*:</label>
+                        <input type="date" name="dia" max="2030-12-31" required><br><br>
+                        <label for="hora">Hora de la reserva*:</label>
+                        <input type="time" name="hora" required><br><br>
+                        <p>Escoja un lugar de preferencia para su mesa:</p>
+                        <input type="radio" name="lugar">
+                        <label for="fuera">Exterior</label><br>
+                        <input type="radio" name="lugar">
+                        <label for="dentro">Interior</label><br>
+                        <input type="radio" name="lugar">
+                        <label for="indiferente">No importa</label><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Comentarios:</legend>
+                        <br><textarea name="comentarios" placeholder="Escriba aquí sus comentarios." rows="8" cols="80"></textarea><br><br>
+                    </fieldset>
+
+                    <div id="botones"><br><input type="submit" class="boton" value="Enviar reserva">
+                        <input type="reset" class="boton" value="Volver a empezar"></div> 
+                </form> 
+            </section>
+
+            <section>
+                <h2>NUESTRA UBICACIÓN</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d799.553533864865!2d-4.420246655322155!3d36.71741812240375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1733579200810!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h3>Lista de monumentos que visitar en orden de cercanía:</h3>
+                <ol>
+                    <li>Torre Eiffel</li>
+                        <ul>
+                            <li>La torre del amor</li>
+                            <li>Se puede subir hasta arriba</li>
+                        </ul>
+                    <li>Coliseo Romano</li>
+                        <ul>
+                            <li>Un viaje en el tiempo</li>
+                            <li>No olvides la crema solar</li>
+                        </ul>
+                    <li>Central Park</li>
+                    <li>Isla de Pascua</li>
+                        <ul>
+                            <li>Ferry de ida y vuelta incluidos con nuestro menú del día</li>
+                        </ul>
+                    <li>Allianz Arena</li>
+                </ol> 
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="texto_footer"><br>&nbsp; &#169; Laura Hernández (2024)<br>
+        <a href="mailto:lhermon962@g.educaand.es">lhermon962@g.educaand.es</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

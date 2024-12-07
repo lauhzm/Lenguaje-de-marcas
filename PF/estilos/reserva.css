@@ -1,0 +1,78 @@
+main {
+    background-color: #fbebaf;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1c8080;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+#contenedor section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+fieldset {
+    border-radius: 22px;
+    border-color: #1c8080;
+    width: 850px;
+    margin-bottom: 20px;
+    background-color: #fff4cb;
+}
+
+textarea[name="comentarios"] {
+    margin-left: 2%;
+}
+
+.boton {
+    background-color: #1c8080;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px gray;
+    border: none;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    box-shadow: 0 0 8px white inset;
+}
+
+.boton:active {
+    box-shadow: 0 0 8px white inset;
+    background-color: #124c4c;
+}
+
+h2 {
+    padding: 10px;
+}
+
+iframe {
+    border: 2px solid #1c8080;
+    border-radius: 22px;
+}
+
+h3 {
+    padding-top: 2%;
+}
+
+ol {
+    margin-top: 2%;
+    border: 2px solid #1c8080;
+    border-radius: 22px;
+    background-color: #fff4cb;
+}
+
+li {
+    line-height: 40px;
+}

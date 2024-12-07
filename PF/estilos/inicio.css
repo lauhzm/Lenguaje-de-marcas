@@ -17,6 +17,7 @@ main {
     overflow: hidden;
     position: absolute;
     opacity: 0.3;
+    max-width: 100%;
 }
 
 img {
@@ -32,7 +33,7 @@ img {
     padding: 40px;
 }
 
-.texto_cuerpo {
+#texto_cuerpo {
     font-size: 20px;
     line-height: 30px;
 }
@@ -59,8 +60,13 @@ iframe {
 }
 
 iframe + p {
+    border: 10px #ff1d44 dotted;
+    border-left: 10px #ff1d44 solid;
+    border-radius: 0 22px 22px 0;
     margin-left: 45%;
     margin-right: 13%;
+    margin-top: 1%;
+    padding: 10px;
 }
 
 #final {
