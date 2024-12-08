@@ -27,8 +27,8 @@ img {
 #intro {
     margin-top: 200px;
     text-align: center;
-    font-weight: bold;
-    font-style: italic;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
     text-shadow: 7px 7px 10px rgb(33, 135, 125);
     padding: 40px;
 }

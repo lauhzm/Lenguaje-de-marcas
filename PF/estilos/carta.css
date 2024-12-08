@@ -7,6 +7,7 @@ main {
 main h1 {
     text-align: center;
     padding-top: 50px;
+    font-family: "Sixtyfour Convergence", sans-serif;
 }
 
 table, th, td {
@@ -53,12 +54,18 @@ span {
 
 h2:has(+img) {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
+    padding-top: 30px;
 }
 
 #platos_estrella img {
     height: 300px;
     border-radius: 22px;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 0, 0.8);
+}
+
+#platos_estrella img:hover {
+    box-shadow: 0 0 30px 20px rgba(255, 255, 0, 1);
 }
 
 #platos_estrella {

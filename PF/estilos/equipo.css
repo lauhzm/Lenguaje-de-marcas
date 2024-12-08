@@ -1,0 +1,68 @@
+main {
+    background-color: #fbebaf;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1c8080;
+}
+
+#intro {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 7px 7px 10px rgb(33, 135, 125);
+    padding: 40px;
+}
+
+audio {
+    background-color: #600817;
+    border-radius: 35px;
+    position: sticky;
+    top: 0;
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 30px;
+    left: 40%;
+}
+
+img {
+    height: 300px;
+    border-radius: 22px;
+    border: 5px #600817 solid; 
+}
+
+main>div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section {
+    text-align: center;
+}
+
+.imagen {
+    display: inline-block; /*Para que salga en la misma línea, es como quitarle la característica block*/
+    padding: 20px;
+}
+
+h2 {
+    background-color: #1c8080;
+    color: white;
+    padding: 10px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+#descripcion {
+    background-color: #0da9a9;
+    color: white;
+    font-size: 20px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 22px;
+}
+
+span {
+    font-weight: bold;
+}
