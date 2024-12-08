@@ -6,13 +6,13 @@ main {
     background-attachment: fixed;
 }
 
-#contenedor {
+main>div {
     width: 100%;
     padding: 5%;
     box-sizing: border-box;
 }
 
-#contenedor div {
+main>div div {
     width: 80%;
     margin-left: 10%;
     border: 5px #1c8080 solid;
@@ -25,6 +25,10 @@ main {
     color: white;
     margin-bottom: 10px;
     background:linear-gradient(50deg, #1c8080, #74bf9d, #fff4cb);
+}
+
+.nombre h1 {
+    font-family: "Yuji Mai", serif;
 }
 
 .descripcion {
@@ -59,8 +63,4 @@ img {
     position: relative;
     width: 200px;
     bottom: 50px;
-}
-
-.nombre h1 {
-    font-family: "Yuji Mai", serif;
 }

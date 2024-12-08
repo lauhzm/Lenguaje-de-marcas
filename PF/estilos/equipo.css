@@ -16,7 +16,7 @@ audio {
     background-color: #600817;
     border-radius: 35px;
     position: sticky;
-    top: 0;
+    top: 10px;
     width: 20%;
     padding: 10px;
     margin-bottom: 30px;
@@ -55,7 +55,7 @@ h3 {
 }
 
 #descripcion {
-    background-color: #0da9a9;
+    background-color: #1c8080;
     color: white;
     font-size: 20px;
     margin: 50px;

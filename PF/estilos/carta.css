@@ -40,10 +40,6 @@ caption {
     margin-left: 25%;
 }
 
-#bebidas {
-    width: 40%;
-}
-
 span {
     font-weight: bold;
 }
@@ -54,8 +50,8 @@ span {
 
 h2:has(+img) {
     text-align: center;
-    padding: 20px;
-    padding-top: 30px;
+    padding: 30px;
+    padding-top: 40px;
 }
 
 #platos_estrella img {
