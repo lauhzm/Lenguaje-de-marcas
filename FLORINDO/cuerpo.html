@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Laura Hernández</title>
+    <link rel="stylesheet" href="estilo.css" type="text/CSS">
+</head>
+
+<body>
+
+    <main>
+
+        <section>
+
+            <img id="imagen_perfil" src="fotoperfil.jpg" alt="Chica con trenzas">
+
+            <div id="titulo">
+                <h1>LAURA HERNÁNDEZ MONTOYA</h1>
+            </div>
+        
+            <h2>Estudiante de desarrollo de aplicaciones web</h2>
+
+            <h3>Mis hobbies:</h3>
+            <ul>
+                <li>Jugar a videojuegos</li>
+                    <ul>
+                        <li>Balatro</li>
+                        <li>Sea of stars</li>
+                    </ul>
+                <li>Ver series</li>
+                    <ul>
+                        <li>The office</li>
+                        <li>The walking dead</li>
+                    </ul>
+                <li>Cocinar y comer</li>
+                <li>Salir a pasear</li>
+                <li>Dibujar</li>
+            </ul> 
+
+            <h3>Mis redes sociales:</h3>
+            <a target="_blank" href="https://www.linkedin.com/in/laurahernandezmontoya/?originalSubdomain=es">Linkedin</a><br>
+            <a target="_blank" href="instagram.com">Instagram</a><br><br>
+
+            <form action="/reserva.php" method="post" autocomplete="off" target="_blank">
+                <fieldset>
+                    <legend>Contáctame:</legend>
+                    <label for="nombre">Nombre*:</label>
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre aquí" required><br><br>
+                    <label for="apellidos">Apellidos*:</label>
+                    <input type="text" name="apellidos" placeholder="Escribe tus apellidos aquí" required><br><br>
+                    <label for="correo">Correo electrónico*:</label>
+                    <input type="email" name="correo" placeholder="Escribe tu correo aquí" required><br><br>
+                    <label for="conversacion">Cuéntame:</label>
+                    <textarea name="otros" placeholder="¿De qué te gustaría hablar?" rows="3" cols="30"></textarea><br><br>
+                </fieldset>
+
+                <div id="botones"><br><input type="submit" class="boton" value="Enviar datos">
+                    <input type="reset" class="boton" value="Volver a empezar"></div> 
+            </form> 
+        </section>
+
+
+
+    </main>
+
+    <script src="./dinamismo.js"></script>
+
+</body>
+
+</html>

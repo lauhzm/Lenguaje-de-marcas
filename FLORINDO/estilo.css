@@ -1,0 +1,51 @@
+body {
+    background-image: url("fondo.webp");
+    background-attachment: scroll;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    background-color: white;
+    padding: 10%;
+    margin: 20%;
+    border-radius: 60px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid black;
+}
+
+ul, fieldset {
+    text-align: left;
+}
+
+fieldset {
+    border-radius: 20px;
+    background-color: lightyellow;
+}
+
+a {
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+
+a:visited {
+    color: green;
+}
+
+h2, h3 {
+    color: darkblue;
+}
+
+h1 {
+    text-shadow: 1px 1px 1px;
+}
